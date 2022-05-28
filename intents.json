@@ -1,0 +1,48 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"],
+         "context": [""]
+        },
+        {"tag": "about",
+         "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+         "responses": ["I.m Joana, your bot assistant", "I'm Joana, an Artificial Intelligent bot"],
+         "context": [""]
+        },
+        {"tag": "name",
+        "patterns": ["what is your name", "what should I call you", "whats your name?"],
+        "responses": ["You can call me Joana.", "I'm Joana!", "Just call me as Joana"],
+        "context": [""]
+        },
+        {"tag": "songs",
+        "patterns": ["Tell me about gaming songs", "Where I can listen to the latest songs?"],
+        "responses": ["You can listen songs on Spotify or you can go to YouTube Music to listen songs."],
+        "context": [""]
+        },
+        {"tag": "movies",
+        "patterns": ["Where I can watch latest action movies or series?"],
+        "responses": ["There are many places where you can watch movies for example Netflix, Amazon Prime, etc."],
+        "context": [""]
+        }
+   ]
+}
